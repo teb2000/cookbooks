@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
+      http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
+	version="1.0">
+
+	<persistence-unit name="cookbooks" transaction-type="RESOURCE_LOCAL">
+		<class>no.nuppers.domain.Author</class>
+		<class>no.nuppers.domain.Comment</class>
+		<class>no.nuppers.domain.Cookbook</class>
+		<class>no.nuppers.domain.Recipe</class>
+		<class>no.nuppers.domain.Tag</class>
+	</persistence-unit>
+
+</persistence>
